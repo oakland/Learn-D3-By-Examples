@@ -1,0 +1,39 @@
+.tooltip {
+  position: absolute;
+  display: none;
+  width: 120px;
+  height: 32px;
+  line-height: 32px;
+  background: rgba(0, 0, 0, .7);
+  border-radius: 3px;
+  color: white;
+  font-size: 12px;
+  text-align: center;
+}
+.area {
+  stroke: #fff;
+  stroke-width: 2px;
+}
+.middle {
+  stroke: #e8eaed;
+  stroke-width: 1px;
+}
+.value {
+  font-size: 20px;
+}
+.pointBrown,
+.pointBlack {
+  display: inline-block;
+  box-sizing: content-box;
+  width: 8px;
+  height: 8px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+.pointBrown {
+  background-color: #a53c3c;
+}
+.pointBlack {
+  background-color: #2c364e;
+}
