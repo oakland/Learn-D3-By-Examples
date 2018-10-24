@@ -1,3 +1,6 @@
+.donut {
+  text-align: center;
+}
 .tooltip {
   position: absolute;
   display: none;
